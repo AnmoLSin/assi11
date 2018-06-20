@@ -44,17 +44,15 @@ public class list {
 		File files[]=folder.listFiles();
 		if(files==null)
 			return;
+		else{
 		for(File check:files)
 		{
 			if(check.isDirectory())
-			{
 				checking(check);
-			}
 			else
-			{
 				list1.add(check);
-			}
-		}	
+		}
+		}
 	}
 	
 	
