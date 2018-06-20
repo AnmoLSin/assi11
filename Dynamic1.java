@@ -104,7 +104,7 @@ public class Dynamic1 {
                     if(n1==-1)
                         throw new InputMismatchException();
                     else
-                       System.out.println(obj.get(7)); 
+                       System.out.println(obj.get(i2)); 
                 }
                 catch(InputMismatchException e){
                         System.out.println("Not in Array");
